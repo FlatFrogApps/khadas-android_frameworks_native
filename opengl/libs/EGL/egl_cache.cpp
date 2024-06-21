@@ -30,8 +30,8 @@
 
 // Cache size limits.
 static const size_t maxKeySize = 12 * 1024;
-static const size_t maxValueSize = 64 * 1024;
-static const size_t maxTotalSize = 2 * 1024 * 1024;
+static const size_t maxValueSize = 256 * 1024;
+static const size_t maxTotalSize = 128 * 1024 * 1024;
 
 // The time in seconds to wait before saving newly inserted cache entries.
 static const unsigned int deferredSaveDelay = 4;
